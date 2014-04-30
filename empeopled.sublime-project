@@ -1,2 +1,26 @@
 {
+	"folders":
+	[
+		{
+			"path": "css"
+		},
+		{
+			"path": "fonts"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "junk"
+		},
+		{
+			"path": "less"
+		},
+		{
+			"path": "bootstrap"
+		}
+	]
 }

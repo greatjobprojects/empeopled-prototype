@@ -76,6 +76,11 @@ body {
 	height: 65px;
 	width: 65px;
 }
+.mod-pic{
+	vertical-align: top;
+	height: 120px;
+	width: 120px;
+}
 .comments {
 	width: 10%;
 	display: inline-block;
@@ -102,6 +107,10 @@ h3 > a:active, a:hover {
 .contextualinfo {
 	display: inline-block;
 	margin-left: 10px;
+}
+.modinfo {
+	display: inline-block;
+	margin-left: 0px;
 }
 .cp {
 	display: inline-block;
