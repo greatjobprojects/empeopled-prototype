@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Empeopled</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Loading Font Awesome -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Loading empeopled -->
+    <link href="css/empeopled.css" rel="stylesheet">
+
+    <!-- Loading google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="row row-offcanvas row-offcanvas-left">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="offcanvas"><i class="fa fa-bars fa-3x"></i></button>
+                        </li>
+                        <!--<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Discussions</a></li>
+                                <li><a href="#">Articles</a></li>
+                            </ul>
+                        </li>-->
+                        <!--<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sort By<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Newest</a></li>
+                                <li><a href="#">Hottest</a></li>
+                            </ul>
+                        </li>-->
+                    </ul>
+                    <h5 class="nav-title">Empeopled | #2intelligentspecies</h5>
+                    <h5 class="nav-action">Share</h5>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <!--post-->
+            <div class="container article">
+                <div class="comments">
+                    <h2 class="section-title">22</h2>
+                    <p class="">people</p>
+                    <p></p>
+                </div>
+                <div class="topic">
+                    <h3 class="section-title"><a href="post.html">#2intelligentspecies</a></h3>
+                    <h5 class="section-text">What if another species coexisted in the same niche as homo sapiens?</h5>
+                        <!--<div class="vote">
+                            <button type="button" class="btn btn-default"><i class="fa fa-chevron-up fa-3x"></i></button>
+                            <button type="button" class="btn btn-default"><i class="fa fa-chevron-down fa-3x"></i></button>
+                        </div>-->
+                        <img src="images/users/g.jpg" class="profile-pic" alt="ghost"> 
+                        <div class="contextualinfo">
+                            <p class="name">George Arnold</p>
+                            <p class="expert">Ecologist</p>
+                            <i class="fa fa-bookmark fa"></i>
+                        </div>
+                        <div class="cp">
+                            <p>10</p>
+                        </div> 
+                </div>
+            </div>
+            <!--post-->
+            <div id="resource-section" class="container">
+                <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#resources">
+                    Resources (5)
+                </button>
+                <div id="resources" class="collapse">
+                    <p><strong>Mashable.com</strong> | <a href="http://mashable.com/2014/04/09/heartbleed-bug-websites-affected/">http://bit.ly/1iqjwgm</a></p>
+                    
+                    <p><strong>RT.com</strong> | <a href="http://rt.com/usa/nsa-knew-heartbleed-hacking-years-004/">http://bit.ly/1isadfgm</a></p>
+                    
+                    <p><strong>time.com</strong> | <a href="http://time.com/59390/heartbleed-internet-security-routers/">http://bit.ly/1iqgjfl</a></p>
+                    
+                    <p><strong>cnn.com</strong> | <a href="http://www.cnn.com/2014/04/08/tech/web/heartbleed-openssl">http://bit.ly/1iqtjdl</a></p>
+                    
+                    <p><strong>forbes.com</strong> | <a href="http://www.forbes.com/sites/jameslyne/2014/04/10/avoiding-heartbleed-hype-what-to-do-to-stay-safe/">http://bit.ly/1iertlp</a></p>
+                    
+                    <input type="text" class="form-control input-hg add-resource" placeholder="hopefully not fox.com" />
+                    <button type="button" class="btn btn-default" id="add-resource-buton" data-toggle="modal" data-target="#resource-modal">
+                        <i class="fa fa-plus-circle fa"></i>
+                        Add resource
+                    </button>
+                </div> <!--resources-->
+            </div> <!--resource-section-->
+            <!--add comments-->
+            <div class="container" id="add-comments">
+                <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#add-comment-hidden">
+                    Add Comment
+                </button>
+                <div id="add-comment-hidden" class="collapse">
+                    <div class="control-group">  
+                        <div class="controls">  
+                            <textarea class="input-xlarge" id="commentarea" rows="3" style="width: 700px; height: 150px;"></textarea>  
+                        </div>  
+                    </div> 
+                    <button type="button" class="btn btn-default" id="add-resource" data-toggle="modal" data-target="#resource-modal">
+                        Submit
+                    </button>
+                </div>
+            </div> 
+            <!--add comments-->
+            <!--comment-1-->
+            <div class="col-lg-8" id="comment-1">
+                <div class="user">
+                    <div class="vote">
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-up fa-1x"></i></button>
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-down fa-1x"></i></button>
+                    </div>
+                    <img src="images/users/g.jpg" class="profile-pic" alt="ghost">
+
+                    <div class="contextualinfo">
+                        <p class="name">George Arnold</p>
+                        <p class="expert">Ecologist</p>
+                        <i class="fa fa-bookmark fa"></i>
+                    </div>
+                    <div class="cp">
+                        <p>10</p>
+                    </div>
+                </div>
+                <p>Ecological theory says that it's impossible for two species to coexist in the same place if they occupy the same environmental niche (niches are things like "eats small seeds and lives in dry grasslands" but usually a little bit more specific than that). The better competitor should exclude the worse competitor. There are some exceptions and ways around this that I'll get back to.
+                <p>So, can we have more than one intelligent life-form on a planet? Not if they occupy the same niche. But is this likely? Maybe, for two reasons. First, an intelligent species probably is going to have a very "large" niche. Look at all the diverse foods humans eat, all the many places we live. And this isn't a modern phenomenon. And this is directly correlated with intelligence, because intelligence is what gives us the behavioral flexibility to use widely varying resources. So intelligent species are going to have broad niches, which are more likely to overlap. Second, intelligent species are likely to be related. Related species are more likely to be similar in overall level of intelligence, but the are also more likely to be similar in the places they live and the things they eat, etc. Thus, greater niche overlap.
+                <p>However, you could in theory have two intelligent forms of life without overlapping niches. A marine carnivore and a terrestrial herbivore could probably coexist without too much trouble.
+                <p>This isn't the end of the story though. Two organisms can occupy the same niche if they don't live in the same part of the world. The problem is, of course, that intelligent species are smart enough to build boats and things and spread all over the globe. The problem is even worse if your two intelligent species are related, because obviously it must be possible to travel between the regions where both live or their ancestors wouldn't have been able to make the trip. Still, a plausible way to have two intelligent species on a planet would be to stick them on opposite sides of the planet, on continents separated by wide, islandless ocean.
+                <p>Remember how I said there are exceptions to the no-two-species in the same niche rule? There are ways around this. Reef fishes seem to have many more species than they have niches available. This seems to be because they all reproduce by scattering eggs into the current. Eventually a larva hatches, finds an open spot of coral, and claims it. Whoever makes it to the open spot first "wins" and random chance makes sure every species gets a spot. I have no idea how this could apply to intelligent species (except maybe different species colonizing different planets...or maybe islands...there might be a story in that).
+                <p>Species can also adapt to each other, allowing them to coexist more-or-less peacefully. There's niche-partitioning, where, eg, one species of birds claims the inner branches of a tree, and the other claims the outer branches. You see something like this with hunter-gatherers coexisting with subsistence farmers in several areas, and in theory two species could do the same thing--specialize themselves to avoid competition.
+                <p>Species can also enter into mutualistic or parasitic relationships, which are similar in that in each case at least one species depends on the other to survive. You could have a master-slave species relationship, or some mutualistic relationship with each producing goods the other needs.
+                <p>Up until now I have been thinking of our intelligent species as living in small scale societies...hunter gatherers, small agriculturalists, low level technology and social organization. This is because I think most intelligent species on the same planet would encounter each other at this stage. With the exception of the species of Antarctica and the deep ocean and a handful of others, humans encountered all the Earth's species when we were at this stage of development. At this stage, I think ecological forces are most important in figuring out what will happen, because the individuals of the species won't have any large scale social structure to coordinate some kind of conscious decision about what to do with the newly discovered intelligent species. IE, humans couldn't as a whole decide to hold peace talks with neanderthals or even to put them on a reservation or enslave them--each individual band of humans had to react to the situation on its own. But I think that if intelligent species encounter each other when at least one group is living in a state level society, it could decide as a whole to ignore ecological influences and allow the other species to live for ethical reasons or what have you. This would also make purposeful niche partitioning a lot easier. All this holds true and even more so if one intelligent species creates the other species. So this is another situation when coexistence is possible.
+                </p>
+                <p><a class="comment-link">reply</a><p>
+            </div> 
+            <!--comment-1-->
+            <!--comment-2-->
+            <div class="col-lg-8" id="comment-2">
+                <div class="user">
+                    <div class="vote">
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-up fa-1x"></i></button>
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-down fa-1x"></i></button>
+                    </div>
+                    <img src="images/users/m.jpg" class="profile-pic" alt="ghost"> 
+                    <div class="contextualinfo">
+                        <p class="name">Jack Black</p>
+                        <p class="expert">Historian</p>
+                        <i class="fa fa-bookmark fa"></i>
+                    </div>
+                    <div class="cp">
+                        <p>8</p>
+                    </div> 
+                </div>
+                <p>We could actually extrapolate from humanity's history concerning different races/tribes/nations and the discovery of each other. Some led to coexistence, some led to cultural assimilation, some led to the extinction of the weaker ones. I imagine two different intelligent species of about the same level would face the same situations with the outcome depending on the level of their social, moral and technological advancement at the time of the first contact.
+                </p>
+                <p><a class="comment-link">reply</a></p>
+            </div> 
+            <!--comment-2-->
+            <!--comment-3-->
+            <div class="col-lg-8" id="comment-3">
+                <div class="user">
+                    <div class="vote">
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-up fa-1x"></i></button>
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-down fa-1x"></i></button>
+                    </div>
+                    <img src="images/users/j.jpg" class="profile-pic" alt="ghost"> 
+                    <div class="contextualinfo">
+                        <p class="name">John Smith</p>
+                        <p class="expert">Archaeologist</p>
+                        <i class="fa fa-bookmark fa"></i>
+                    </div>
+                    <div class="cp">
+                        <p>6</p>
+                    </div> 
+                </div>
+                <p>We could actually extrapolate from humanity's history concerning different species of humans. Neanderthal, Denisovans, and homo sapiens coexisted. Neanderthals and sapiens coexisted for several thousand years. There was at least some degree of assimilation (i.e. interbreeding). However, we see that given the conditions the ultimate result was not a perpetual coexistence.
+                </p>
+                <p><a class="comment-link">reply</a></p>
+            </div> 
+            <!--comment-3-->
+            <!--comment-4-->
+            <div class="col-lg-8" id="comment-4">
+                <div class="user">
+                    <div class="vote">
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-up fa-1x"></i></button>
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-down fa-1x"></i></button>
+                    </div>
+                    <img src="images/users/c.jpg" class="profile-pic" alt="ghost"> 
+                    <div class="contextualinfo">
+                        <p class="name">Bob Iver</p>
+                        <p class="expert">Sociologist</p>
+                        <i class="fa fa-bookmark fa"></i>
+                    </div>
+                    <div class="cp">
+                        <p>11</p>
+                    </div> 
+                </div>
+                <p>Actually, we've had a test case!  Homo Sapiens Sapiens and Homo Sapiens Neanderthalensis co-existed throughout various parts of Europe and the Levant for thousands of years.  Only one species survived.
+                </p>
+                <p><a class="comment-link">reply</a></p>
+            </div> 
+            <!--comment-4-->
+            <!--comment-5-->
+            <div class="col-lg-8" id="comment-5">
+                <div class="user">
+                    <div class="vote">
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-up fa-1x"></i></button>
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-down fa-1x"></i></button>
+                    </div>
+                    <img src="images/users/g.jpg" class="profile-pic" alt="ghost"> 
+                    <div class="contextualinfo">
+                        <p class="name">George Arnold</p>
+                        <p class="expert">Ecologist</p>
+                        <i class="fa fa-bookmark fa"></i>
+                    </div>
+                    <div class="cp">
+                        <p>10</p>
+                    </div> 
+                </div>
+                <p>Increasingly we are seeing traction given to the theory that neanderthals went extinct because their chosen niche suffered. They ambushed hunted against the sapien's preference for plains hunting, so didn't compete for resources overmuch. Of course there are other theories, but it is important to remember that they did cohabit for tens of thousands of years and we cannot write that off because one side eventually perished.
+                <p>My knowledge is too limited to say that one intelligent species cannot exist because the homo sapiens were all dead by 40,000 AD, but I hope that this illustrates the point I am making.
+                </p>
+                <p><a class="comment-link">reply</a></p>
+            </div> 
+            <!--comment-5-->
+            <!--comment-6-->
+            <div class="col-lg-8" id="comment-6">
+                <div class="user">
+                    <div class="vote">
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-up fa-1x"></i></button>
+                        <button type="button" class="btn btn-default btn-sm btn-vote"><i class="fa fa-chevron-down fa-1x"></i></button>
+                    </div>
+                    <img src="images/users/s.jpg" class="profile-pic" alt="ghost">
+                    <div class="contextualinfo">
+                        <p class="name">Stan Asimov</p>
+                        <p class="expert">Biologist</p>
+                        <i class="fa fa-bookmark fa"></i>
+                    </div>
+                    <div class="cp">
+                        <p>12</p>
+                    </div>  
+                </div>
+                <p>Actually, what we're seeing is that neanderthals seem to have been genetically assimilated into European, Mediterranean, and Asian populations of H. sapiens. The relatively low percentage of H. neandethalensis DNA in the genomes of these populations is probably due to comparative population sizes between H. sapiens and H. neanderthalensis rather than some sort of selective process.
+                </p>
+                <p><a class="comment-link">reply</a></p>
+            </div> 
+            <!--comment-6-->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                <div class="list-group">
+                    <a href="hashtag.html" class="list-group-item active"><i class="fa fa-home fa-fw"></i>Home</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-search fa-fw"></i>Search</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-envelope fa-fw"></i>Messages</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-flag fa-fw"></i>Alerts</a>
+                    <a href="/profile.html" class="list-group-item"><i class="fa fa-user fa-fw"></i>My Profile</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-gear fa-fw"></i>Settings</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-sign-out fa-fw"></i>Sign out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/offcanvas.js"></script>
+  </body>
+</html>
