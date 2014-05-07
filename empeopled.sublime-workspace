@@ -92,50 +92,10 @@
 	"buffers":
 	[
 		{
-			"file": "empeopled-README.md",
-			"settings":
-			{
-				"buffer_size": 878,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "hashtag_signedin.html",
-			"settings":
-			{
-				"buffer_size": 13446,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "hashtag.html",
-			"settings":
-			{
-				"buffer_size": 18079,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "species.html",
 			"settings":
 			{
-				"buffer_size": 23503,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "taxes.html",
-			"settings":
-			{
-				"buffer_size": 24299,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "profile.html",
-			"settings":
-			{
-				"buffer_size": 8950,
+				"buffer_size": 23006,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +103,7 @@
 			"file": "css/empeopled.css",
 			"settings":
 			{
-				"buffer_size": 6940,
+				"buffer_size": 5541,
 				"line_ending": "Unix"
 			}
 		}
@@ -151,15 +111,23 @@
 	"build_system": "Packages/User/firefox.sublime-build",
 	"command_palette":
 	{
-		"height": 267.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"col",
+				"Snippet: bs3-col-2"
+			],
+			[
+				"row",
+				"Snippet: bs3-row"
+			],
 			[
 				"br",
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 392.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -176,6 +144,18 @@
 	},
 	"file_history":
 	[
+		"/Users/Cosmo/protoype 04222014/empeopled-README.md",
+		"/Users/Cosmo/protoype 04222014/empeopled.sublime-workspace",
+		"/Users/Cosmo/protoype 04222014/flat-ui-README.md",
+		"/Users/Cosmo/protoype 04222014/hashtag_signedin.html",
+		"/Users/Cosmo/protoype 04222014/hashtag.html",
+		"/Users/Cosmo/protoype 04222014/package.json",
+		"/Users/Cosmo/protoype 04222014/discussion_lorem.html",
+		"/Users/Cosmo/protoype 04222014/components.html",
+		"/Users/Cosmo/protoype 04222014/signed_in.html",
+		"/Users/Cosmo/protoype 04222014/profile.html",
+		"/Users/Cosmo/protoype 04222014/template.html",
+		"/Users/Cosmo/protoype 04222014/taxes.html",
 		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04222014/README.md",
 		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04222014/flat-ui-README.md",
 		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04142014/signed_in.html",
@@ -275,6 +255,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}\n",
+			"tip",
+			"mod",
 			"empeopled",
 			"signup",
 			".signup",
@@ -301,205 +284,52 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "empeopled-README.md",
+					"file": "species.html",
 					"settings":
 					{
-						"buffer_size": 878,
+						"buffer_size": 23006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								650,
-								650
+								22936,
+								22936
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4209.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "hashtag_signedin.html",
-					"settings":
-					{
-						"buffer_size": 13446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11801,
-								11801
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3219.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "hashtag.html",
-					"settings":
-					{
-						"buffer_size": 18079,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								89
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 1.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "species.html",
-					"settings":
-					{
-						"buffer_size": 23503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								89
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 4.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "taxes.html",
-					"settings":
-					{
-						"buffer_size": 24299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								600,
-								609
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 18.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "profile.html",
-					"settings":
-					{
-						"buffer_size": 8950,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								89
-							],
-							[
-								566,
-								575
-							],
-							[
-								600,
-								609
-							],
-							[
-								2684,
-								2693
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "css/empeopled.css",
 					"settings":
 					{
-						"buffer_size": 6940,
+						"buffer_size": 5541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6874,
-								6874
+								403,
+								403
 							]
 						],
 						"settings":
@@ -507,7 +337,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5774.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
