@@ -257,6 +257,9 @@ h3 {
 #resources {
 	padding-top: 20px;
 }
+.resources-input {
+	margin-top: 20px;
+}
 #resources > p > a {
 	color: #222222;
 }
@@ -269,9 +272,13 @@ h3 {
 	margin-top:20px;
 	margin-bottom: 10px;
 }
+.resource-input {
+	margin-top: 20px;
+}
 /*add resource button*/
 #add-resource-button {
 	margin-top: 10px;
+	display: inline;
 }
 /*comments*/
 #add-comments, #add-comment-hidden {
