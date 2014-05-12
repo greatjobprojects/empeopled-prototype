@@ -103,7 +103,7 @@
 			"file": "hashtag_signedin.html",
 			"settings":
 			{
-				"buffer_size": 13446,
+				"buffer_size": 13398,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "hashtag.html",
 			"settings":
 			{
-				"buffer_size": 18079,
+				"buffer_size": 15550,
 				"line_ending": "Unix"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "species.html",
 			"settings":
 			{
-				"buffer_size": 23503,
+				"buffer_size": 21516,
 				"line_ending": "Unix"
 			}
 		},
@@ -127,7 +127,7 @@
 			"file": "taxes.html",
 			"settings":
 			{
-				"buffer_size": 24299,
+				"buffer_size": 22781,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "profile.html",
 			"settings":
 			{
-				"buffer_size": 8950,
+				"buffer_size": 8414,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "css/empeopled.css",
 			"settings":
 			{
-				"buffer_size": 6940,
+				"buffer_size": 5420,
 				"line_ending": "Unix"
 			}
 		}
@@ -301,7 +301,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -335,15 +335,15 @@
 					"file": "hashtag_signedin.html",
 					"settings":
 					{
-						"buffer_size": 13446,
+						"buffer_size": 13398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11801,
-								11801
+								0,
+								0
 							]
 						],
 						"settings":
@@ -353,7 +353,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3219.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -363,15 +363,15 @@
 					"file": "hashtag.html",
 					"settings":
 					{
-						"buffer_size": 18079,
+						"buffer_size": 15550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								89
+								0,
+								0
 							]
 						],
 						"settings":
@@ -392,15 +392,15 @@
 					"file": "species.html",
 					"settings":
 					{
-						"buffer_size": 23503,
+						"buffer_size": 21516,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								89
+								0,
+								0
 							]
 						],
 						"settings":
@@ -421,15 +421,15 @@
 					"file": "taxes.html",
 					"settings":
 					{
-						"buffer_size": 24299,
+						"buffer_size": 22781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								609
+								0,
+								0
 							]
 						],
 						"settings":
@@ -450,27 +450,15 @@
 					"file": "profile.html",
 					"settings":
 					{
-						"buffer_size": 8950,
+						"buffer_size": 8414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								89
-							],
-							[
-								566,
-								575
-							],
-							[
-								600,
-								609
-							],
-							[
-								2684,
-								2693
+								0,
+								0
 							]
 						],
 						"settings":
@@ -491,15 +479,15 @@
 					"file": "css/empeopled.css",
 					"settings":
 					{
-						"buffer_size": 6940,
+						"buffer_size": 5420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6874,
-								6874
+								0,
+								0
 							]
 						],
 						"settings":
