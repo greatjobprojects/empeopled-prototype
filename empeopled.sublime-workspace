@@ -119,7 +119,7 @@
 			"file": "species.html",
 			"settings":
 			{
-				"buffer_size": 23860,
+				"buffer_size": 23075,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "css/empeopled.css",
 			"settings":
 			{
-				"buffer_size": 5517,
+				"buffer_size": 5557,
 				"line_ending": "Unix"
 			}
 		}
@@ -392,15 +392,15 @@
 					"file": "species.html",
 					"settings":
 					{
-						"buffer_size": 23860,
+						"buffer_size": 23075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7712,
-								7712
+								0,
+								0
 							]
 						],
 						"settings":
@@ -479,15 +479,15 @@
 					"file": "css/empeopled.css",
 					"settings":
 					{
-						"buffer_size": 5517,
+						"buffer_size": 5557,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4440,
-								4440
+								0,
+								0
 							]
 						],
 						"settings":
